@@ -5,7 +5,7 @@ Function takes in a value, does the conversion and puts the answer into a list
 
 
 def to_f(from_c):
-    fahrenheit = (from_c * 9 / 50 +32)
+    fahrenheit = (from_c * 9 / 5) + 32
     return fahrenheit
 
 
@@ -18,4 +18,5 @@ for item in temperatures:
     ans_statement = "{} degrees c is {} degrees F".format(item, answer)
     converted.append(ans_statement)
 
-print(converted)
+for i in converted:
+    print(i)
