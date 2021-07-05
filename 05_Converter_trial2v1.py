@@ -81,7 +81,20 @@ class Converter:
     def temp_convert(self, to):
         print(to)
 
-        # Retrieve amount 
+        # Retrieve amount entered into Entry field
+
+
+        # Check amount is valid
+
+        # Convert to F
+
+        # Convert to C
+
+        # Round!!
+
+        # Display answer
+
+        # Add Answer to list for History
 
 # main routine
 if __name__=="__main__":
