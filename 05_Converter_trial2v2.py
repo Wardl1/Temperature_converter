@@ -82,9 +82,15 @@ class Converter:
         print(to)
 
         # Retrieve amount entered into Entry field
-
+        to_convert = self.to_convert_entry.get()
 
         # Check amount is valid
+        try:
+            to_convert = float(to_convert)
+            print("yay")
+
+        except ValueError:
+            print("oops")
 
         # Convert to F
 
