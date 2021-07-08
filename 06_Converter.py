@@ -124,6 +124,11 @@ class Converter:
 
     #Round!!
     def round_it(self, to_round):
+        if to_round % 1 == 0:
+            rounded = int(to_round)
+        else:
+            rounded = round(to_round, 1)
+        return rounded
 
 # main routine
 if __name__=="__main__":
