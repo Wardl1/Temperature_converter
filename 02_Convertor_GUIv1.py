@@ -19,18 +19,18 @@ class Converter:
 
         # Temperature Converter Heading (row 0)
         self.temp_heading_label = Label(self.converter_frame,
-                                         text="Temperature Converter",
-                                         font="Arial 16 bold",
-                                         bg=background_colour,
-                                         padx=10, pady=10)
+                                        text="Temperature Converter",
+                                        font="Arial 16 bold",
+                                        bg=background_colour,
+                                        padx=10, pady=10)
         self.temp_heading_label.grid(row=0)
 
         # User instructions (row 1)
         self.temp_instructions_label = Label(self.converter_frame,
                                              text="Type in the amount to be "
-                                             "converted and then push "
-                                             "one of the buttons "
-                                             "below...",
+                                                  "converted and then push "
+                                                  "one of the buttons "
+                                                  "below...",
                                              font="Arial 10 italic", wrap=250,
                                              justify=LEFT, bg=background_colour,
                                              padx=10, pady=10)
@@ -78,7 +78,7 @@ class Converter:
 
 
 # main routine
-if __name__=="__main__":
+if __name__ == "__main__":
     root = Tk()
     root.title("title goes here")
     something = Converter()
