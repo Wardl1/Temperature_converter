@@ -114,7 +114,7 @@ class Converter:
                 self.to_convert_entry.configure(bg="white")
             else:
                 self.converted_label.configure(text=answer, fg="red")
-                self.to_convert_entry.configure(bg="error")
+                self.to_convert_entry.configure(bg=error)
 
             # Add Answer to list for History
 
