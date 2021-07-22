@@ -41,10 +41,10 @@ class Convertor:
 
     def history(self):
         print("You asked for history")
-        get_history = history(self)
+        get_history = History(self)
         get_history.history_text.configure(text="History text goes here")
 
-class history:
+class History:
     def __init__(self, partner):
         background = "#a9ef99"  # Pale green
 
