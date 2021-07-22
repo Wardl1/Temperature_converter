@@ -1,9 +1,10 @@
-# Follows on from 09_History_GUI_v4.py
-# Removed all but 4 elements from the list (lines 19-22)
-# Then added else statement for list less than 7 elements on lines 90-98
-# NOTE the subtle difference between line 88 (whole list) and line 94 which
-# uses index values for items in the list.
-
+# This is a copy of 09_History_GUI_v5 which is combined with the converter
+# function from 09_History_GUI_v1 (copy of which was saved as v1b to allow
+# adaption. The converter class (lines 13-147) - NOT the history function
+# on lines 149-150 - has been copied from 09_History_GUI_v1b (lines 15-149)
+# Then, on line 133, need to change "if answer != "Too cold" to
+# "if has_errors != "yes".
+# Removed the print statement from line 135 and make the history button NORMAL
 
 from tkinter import *
 from functools import partial  # To prevent unwanted windows
