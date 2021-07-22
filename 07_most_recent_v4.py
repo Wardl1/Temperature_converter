@@ -33,7 +33,7 @@ else:
         print("*** Most Recent 3 ***")
         for item in range(0, 3):
             print(all_calcualtions[len(all_calcualtions) - item - 1])
-            
+
     else:
         print("*** Items from Newest to Oldest ****")
         for item in all_calcualtions:
