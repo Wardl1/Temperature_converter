@@ -191,10 +191,9 @@ class Export:
                                     command=partial(self.close_export, partner))
         self.cancel_button.grid(row=0, column=1)
 
-
     def save_history(self, partner, calc_history):
         # Regular expression to check file name. Can be Upper or lower case letters,
-        valid_char = "[A-Za-z0-9_]"  # numberes or underscores
+        valid_char = "[A-Za-z0-9_]"  # numbers or underscores
         has_error = "no"
 
         filename = self.filename_entry.get()
@@ -246,6 +245,7 @@ class Export:
         # Put export button back to normal...
         partner.export_button.config(state=NORMAL)
         self.export_box.destroy()
+
 
 # main routine
 if __name__ == "__main__":
