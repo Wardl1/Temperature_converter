@@ -1,8 +1,8 @@
-# Changed the command button to lambda... on line 50
-# then (again) changed the history function on lines 53-54
-# Add calc_history parameter to History class on line 57
-# Then enter history output from line 92
-# Add label in lines 98-101
+# Follows on from 09_History_GUI_v4.py
+# Removed all but 4 elements from the list (lines 19-22)
+# Then added else statement for list less than 7 elements on lines 90-98
+# NOTE the subtle difference between line 88 (whole list) and line 94 which
+# uses index values for items in the list.
 
 from tkinter import *
 from functools import partial  # To prevent unwanted windows
